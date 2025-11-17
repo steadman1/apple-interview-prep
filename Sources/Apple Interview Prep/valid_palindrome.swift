@@ -4,8 +4,8 @@ extension String {
     }
 }
 
-class Solution {
-    func isPalindrome(_ s: String) -> Bool {
+class Palindrome {
+    static func isPalindrome(_ s: String) -> Bool {
         let chars: [Character] = Array(s.lowercased().alphaNumeric)
 
         let count = chars.count
