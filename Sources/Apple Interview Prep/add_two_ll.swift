@@ -11,7 +11,7 @@
 class AddTwoLL {
     static func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
-        var head: ListNode = ListNode(0)
+        let head: ListNode = ListNode(0)
         var current: ListNode? = head
         var current1 = l1
         var current2 = l2
